@@ -1,0 +1,35 @@
+.clear {
+	clear:both;
+}
+
+.board {
+	float:left;
+	height:10px;
+	width:10px;
+	margin:none;
+}
+
+.fill {
+	background-color:#1E1E1E;
+}
+
+body {
+	background-color:#8AB3BF;
+}
+
+#background {
+	width:500px;
+	margin-top:120px;
+	background-color:#808080;
+	border-radius:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#board {
+	width:384px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	overflow:hidden;
+}
