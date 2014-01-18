@@ -10,11 +10,17 @@
 <body>
 	<div id="main">
 		<div id="text">
-			<p>Press "c" to clear, "e" to switch to eraser, and "t" to toggle your cursor on and off.</p>
+			<p> Press "c" to clear, "e" to switch to eraser, and "t" to toggle your cursor on and off.<br>
+				Resize will make a new board of the given dimensions. not inputting values will default to 32.<br>
+				And no, you're not clever for putting something thats not a number into the input fields.
+			</p>
 		</div>
 		<div id="buttons">
 			<button id="clear">Clear</button>
 			<button id="eraser">Eraser</button>
+			<button id="resize">Resize</button>
+			Height: <input type="text" id="i_value">
+			Width: <input type="text" id="j_value">
 		</div>
 
 		<div id="board_background">

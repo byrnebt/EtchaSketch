@@ -37,6 +37,24 @@ $(document).ready(function(){
 	$("#eraser").click(function() {
 		cursor_var *= -1;
 	});
+
+	$("#resize").click(function() {
+		if (!$("#i_value").val()) {
+			var i = 32;
+		}
+		else {
+			var i = $("#i_value");
+		}
+		if (!$("#j_value").val())
+		{
+			var j = 32;
+		}
+		else {
+			var j = $("j_value");
+		}
+		$(".board").remove();
+		create_board(i, j);
+	});
 });
 
 function create_board (i, j) {

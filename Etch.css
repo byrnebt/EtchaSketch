@@ -14,7 +14,6 @@
 	border-radius:15px;
 	display:inline-block;
 	padding:10px;
-	font:tahoma;
 }
 
 .fill {
@@ -23,6 +22,7 @@
 
 body {
 	background-color:#8AB3BF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;;
 }
 
 #board_background {
